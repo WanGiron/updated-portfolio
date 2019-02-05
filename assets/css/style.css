@@ -1,0 +1,156 @@
+
+.navbar{
+    margin-top: 20px;
+    padding: 0px;
+    margin: 0 auto;
+}
+
+.title{
+    width: fit-content;
+    font-size: 50px;
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+    color: rgb(83, 83, 83);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.subtitle{
+    font-size: 26px;
+    margin: 0 auto;
+    color: rgb(61, 61, 61);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-top: solid rgb(13, 87, 136) 4px;
+    border-bottom: solid rgb(211, 211, 211) 1px;
+    width: 100%; 
+    text-align: center;
+    background-color: #fefbd8; 
+    padding: 4px;
+
+}
+
+.container{
+    margin-top: 20px;
+}
+
+/* main body subsections*/
+/* .first-section, .middle-section, .end-section{
+    border: solid black 1px;
+    height: 600px;
+    padding: 0px;
+}
+.first-subsection{
+    border: solid black 1px;
+    width: 100%;
+    height: 300px;
+    padding: 0px;
+    margin: 0px;
+}
+.end-subsection{
+    border: solid black 1px;
+    width: 100%;
+    height: 300px;
+    padding: 0px;
+    margin: 0px;
+    
+} */
+
+/* middle section */
+.my-pic{
+    margin-top: 40px;
+    border-radius: 50%;
+}
+.greet-title{
+    text-align: center;
+    margin-top: 20px;
+    color: #444444
+}
+
+.greet-p{
+    text-align: justify;
+    color: #525252
+}
+
+/* first sub-section */
+.about{
+    height: 180px;
+    border-top-left-radius: 30px;
+    background-color:#618685;
+}
+.about-me-btn{
+    height: 60px;
+    margin-bottom: 20px;
+    background-color: rgb(13, 87, 136);
+    color: white;
+    font-size: 20px;
+    border: 0px; 
+    border-top: solid rgb(230, 230, 230) 1px;
+}
+
+.message{
+    margin-top: 20px;
+    height: 180px;
+    background-color:#618685;
+    text-align: center;
+}
+.img-message{
+   
+}
+.message-btn{
+    height: 60px;
+    margin-bottom: 20px; 
+    background-color:rgb(13, 87, 136);
+    color: white;
+    font-size: 20px;
+    border: 0px; 
+    border-top: solid rgb(230, 230, 230) 1px;
+    border-bottom-left-radius: 30px;
+}
+
+.projects{
+    height: 180px;
+    background-color:#618685;
+    border-top-right-radius: 30px;
+}
+.projects-btn{
+    height: 60px;
+    margin-bottom: 20px; 
+    background-color: rgb(13, 87, 136);
+    color: white;
+    font-size: 20px;
+    border: 0px; 
+    border-top: solid rgb(230, 230, 230) 1px;
+}
+
+.something{
+    margin-top: 20px;
+    height: 180px;
+    background-color:#618685;
+}
+.something-btn{
+    height: 60px;
+    background-color: rgb(13, 87, 136);
+    color: white;
+    font-size: 20px;
+    border-bottom-right-radius: 30px;
+    border: 0px; 
+    border-top: solid rgb(230, 230, 230) 1px;
+}
+
+/* hover effect */
+.about-me-btn:hover, .message-btn:hover, .projects-btn:hover, .something-btn:hover{
+    background-color: rgb(9, 55, 107)
+
+}
+
+/* social media div */
+
+.social-media{
+    margin-top: 10px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.social{
+    padding: 4px;
+}
