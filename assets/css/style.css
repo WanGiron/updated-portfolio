@@ -87,6 +87,9 @@
     border-top: solid rgb(230, 230, 230) 1px;
 }
 
+h3{
+    border-bottom: solid gray 3px;
+}
 .message{
     margin-top: 20px;
     height: 180px;

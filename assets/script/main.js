@@ -7,7 +7,6 @@ $("#projects, #something ").on('click', function(event){
 function show(){
     $("#middleDiv").empty();
     $("#middleDivContent").show();
-
 }
 
 function ani(){
@@ -28,7 +27,7 @@ $("#about").on('click', function(event){
     var p = $("<p>");
     var b = $("<button>Back</button>");
     b.on('click', _=> show());
-    p.text("Hi there! My name is William Navas, I'm a new web developer looking for opportunities to grow in the field.<br> I'm filled with passion to develop great websites. My goal is to keep on learning new technologies that are introduced on a regular basis to strengthen my academic foundation in programming languages. With enthusiasm and effort, I have learned the principles of web development using different technologies currently available. I have worked in personal projects and contributed working with other developers, I also believe in teamwork which is the key to success.I'm also a self-driven person that has self-taught himself photography. I'm a freelancer web-developer and professional wedding photographer willing to take new challenges. You can reach me at williamanavas@gmail.com.");
+    p.text("Hi there! My name is William Navas, I'm a new web developer looking for opportunities to grow in the field. I'm filled with passion to develop great websites. My goal is to keep on learning new technologies that are introduced on a regular basis to strengthen my academic foundation in programming languages. With enthusiasm and effort, I have learned the principles of web development using different technologies currently available. I have worked in personal projects and contributed working with other developers, I also believe in teamwork which is the key to success.I'm also a self-driven person that has self-taught himself photography. I'm a freelancer web-developer and professional wedding photographer willing to take new challenges. You can reach me at williamanavas@gmail.com.");
     aboutDiv.append(h, p, b);
     $("#middleDivContent").hide();
     $("#middleDiv").empty();
@@ -40,6 +39,7 @@ $("#about").on('click', function(event){
 $("#message-btn").on('click', function(event){
     var messageDiv = $("<div>");
     messageDiv.attr('id', 'new-message');
+    var h2 = $("<h3>Contact me</h3>")
     var p = $("<p>Name</p>");
     var i = $("<input id='name-input' type='text' class='col-12'><br>");
     var p2 = $("<p>E-mail</p>");
@@ -50,7 +50,7 @@ $("#message-btn").on('click', function(event){
     var b = $("<button>Back</button>");
 
     b.on('click', _=> show());
-    messageDiv.append(p, i, p2, i2, p3, i3, bSubmit, b);
+    messageDiv.append(h2, p, i, p2, i2, p3, i3, bSubmit, b);
     $("#middleDivContent").hide();
     $("#middleDiv").empty();
     $("#middleDiv").append(messageDiv);
