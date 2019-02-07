@@ -1,4 +1,4 @@
-alert("page under construction!!! some minor details are missing")
+alert("page under construction!!! some minor details are missing(images in the boxes)")
 var coming = "coming soon!!!";
 
 $("#projects, #something ").on('click', function(event){
@@ -57,4 +57,5 @@ $("#message-btn").on('click', function(event){
     $("#new-message").animate({opacity:"1"});
     $("#middleDivContent").hide();
 })
+
 
