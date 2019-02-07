@@ -5,13 +5,17 @@ $("#projects, #something ").on('click', function(event){
     alert(coming);
 })
 function show(){
-    $("#middleDivContent").show();
     $("#middleDiv").empty();
+    $("#middleDivContent").show();
 
 }
 
 function ani(){
     $("#new-about").animate({opacity:"1"});
+}
+
+function opacityDiv(){
+    
 }
 
 
@@ -30,17 +34,18 @@ $("#about").on('click', function(event){
     $("#middleDiv").empty();
     $("#middleDiv").append(aboutDiv);
     $("#new-about").animate({opacity:"1"});
+    $("#middleDivContent").hide();
 })
 // function to generate contact
 $("#message-btn").on('click', function(event){
     var messageDiv = $("<div>");
     messageDiv.attr('id', 'new-message');
     var p = $("<p>Name</p>");
-    var i = $("<input id='name-input'><br>");
+    var i = $("<input id='name-input' type='text' class='col-12'><br>");
     var p2 = $("<p>E-mail</p>");
-    var i2 = $("<input id='eamil-input'><br>");
+    var i2 = $("<input id='eamil-input' type='email' class='col-12'><br>");
     var p3 = $("<p>Message</p>");
-    var i3 = $("<textarea id='messageInput' rows='4' cols='30'></textarea><br>");
+    var i3 = $("<textarea id='messageInput' rows='8' class='col-12'></textarea><br>");
     var bSubmit = $("<button>Submit</button>")
     var b = $("<button>Back</button>");
 
@@ -50,5 +55,6 @@ $("#message-btn").on('click', function(event){
     $("#middleDiv").empty();
     $("#middleDiv").append(messageDiv);
     $("#new-message").animate({opacity:"1"});
+    $("#middleDivContent").hide();
 })
 

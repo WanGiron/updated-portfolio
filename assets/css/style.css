@@ -104,6 +104,11 @@
     border-bottom-left-radius: 30px;
 }
 
+input{
+    box-shadow: none;
+    border-radius: 3px;
+}
+
 .projects{
     height: 180px;
     background-color:#618685;
