@@ -9,20 +9,28 @@ function show(){
     $("#middleDiv").empty();
 
 }
+
+function ani(){
+    $("#new-about").animate({opacity:"1"});
+}
+
+
 // function to generate about
 $("#about").on('click', function(event){
     var aboutDiv = $("<div>");
     aboutDiv.attr('id', 'new-about');
+    var h = $("<h3>");
+    h.text('About me');
     var p = $("<p>");
     var b = $("<button>Back</button>");
     b.on('click', _=> show());
-    p.text("Hi there! my name is William and I'm a web-developer on the making! In this page you can find more information about my self");
-    aboutDiv.append(p, b);
+    p.text("Hi there! My name is William Navas, I'm a new web developer looking for opportunities to grow in the field.<br> I'm filled with passion to develop great websites. My goal is to keep on learning new technologies that are introduced on a regular basis to strengthen my academic foundation in programming languages. With enthusiasm and effort, I have learned the principles of web development using different technologies currently available. I have worked in personal projects and contributed working with other developers, I also believe in teamwork which is the key to success.I'm also a self-driven person that has self-taught himself photography. I'm a freelancer web-developer and professional wedding photographer willing to take new challenges. You can reach me at williamanavas@gmail.com.");
+    aboutDiv.append(h, p, b);
     $("#middleDivContent").hide();
     $("#middleDiv").empty();
     $("#middleDiv").append(aboutDiv);
+    $("#new-about").animate({opacity:"1"});
 })
-
 // function to generate contact
 $("#message-btn").on('click', function(event){
     var messageDiv = $("<div>");
@@ -33,12 +41,14 @@ $("#message-btn").on('click', function(event){
     var i2 = $("<input id='eamil-input'><br>");
     var p3 = $("<p>Message</p>");
     var i3 = $("<textarea id='messageInput' rows='4' cols='30'></textarea><br>");
+    var bSubmit = $("<button>Submit</button>")
     var b = $("<button>Back</button>");
 
     b.on('click', _=> show());
-    messageDiv.append(p, i, p2, i2, p3, i3, b);
+    messageDiv.append(p, i, p2, i2, p3, i3, bSubmit, b);
     $("#middleDivContent").hide();
     $("#middleDiv").empty();
     $("#middleDiv").append(messageDiv);
+    $("#new-message").animate({opacity:"1"});
 })
 

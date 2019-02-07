@@ -153,15 +153,17 @@
 }
 
 /* new divs for info */
-#new-message{
+#new-message, #new-about{
     width: 100%;
     height: fit-content;
-    padding: 5px;
-    background-color: #fefbd8;
+    padding: 10px;
+    background-color: #f1f1f1;
     color: rgb(53, 53, 53);
-    border: solid rgb(177, 177, 177) 1px;
+    border: solid rgb(228, 228, 228) 1px;
     border-radius: 10px;
+    opacity: 0.2;
+}
 
-
-
+#new-about{
+    text-align: justify;
 }
