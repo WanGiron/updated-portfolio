@@ -6,15 +6,16 @@ body{
 }
 
 .photo-background-div{
+    /* margin-top: -80px; */
     background-image: url("../images/cover2.jpg");
     /* background-size: cover; */
     background-size: cover;
     background-repeat: no-repeat;
 }
 .navbar{
-    margin-top: 10px;
     padding: 0px;
     margin: 0 auto;
+    border-bottom: solid rgb(168, 168, 168) 1px;
 }
 .home-link{
     text-decoration: none;
@@ -28,7 +29,6 @@ body{
     text-decoration: none;
     width: fit-content;
     font-size: 25px;
-    /* margin-top: 6px; */
     width: 100%;
     text-align: right;
     margin-right: 30px;
@@ -37,15 +37,15 @@ body{
 }
 
 .subtitle{
-    font-size: 40px;
+    font-size: 30px;
     /* margin: 0 auto; */
     color: rgb(228, 228, 228);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    border-top: solid #618685 4px;
-    border-bottom: solid rgb(168, 168, 168) 1px;
+    /* border-top: solid #618685 4px; */
+    border-bottom: solid rgb(13, 87, 136) 3px;
     width: 100%; 
-    text-align: center;
-    background-color: rgb(13, 87, 136); 
+    text-align: right;
+    background-color: rgb(167, 61, 0); 
     padding: 4px;
     padding-right: 30px;
 
@@ -59,31 +59,34 @@ body{
 }
 
 /* middle section */
-.my-pic{
+.middle-section{
+    height: min-content;
+    width: fit-content;
     margin-top: 80px;
-    border: rgb(255, 255, 255) solid 1px;
+    background-color: rgb(13, 87, 136);
+    padding-bottom: 15px;
+    opacity: 0.8;
+    border: solid rgb(202, 202, 202) 1px;
+}
+.my-pic{
+    margin-top: 15px;
+    /* border: rgb(255, 255, 255) solid 1px; */
     /* padding: 6px; */
     /* border-radius: 50%; */
     width: 250px;
     
 }
 
-/* .photo{
-    border: solid black 1px; 
-    margin-top: -100px;
-    border-radius: 50%;
-    width: 100px;
-} */
-
 .greet{
     margin-top: 80px;
     padding: 10px;
     background-color:rgb(13, 87, 136);
     border: solid white 1px;
-    opacity: 0.5;
+    opacity: 0.7;
     height: fit-content;
-    min-height: 250px;
+    min-height: 340px;
     margin-bottom: 30px;
+    margin-left: 15px;
 }
 .greet-title{
     text-align: center;
