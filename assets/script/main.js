@@ -36,7 +36,7 @@ function messageBoxAnimation(){
 
 // function to generate about
 $("#about").on('click', function(event){
-    var aboutDiv = $("<div>");
+    var aboutDiv = $("<div class='greet1'>");
     aboutDiv.attr('id', 'new-about');
     var h = $("<h3>");
     h.text('About me');
@@ -53,7 +53,7 @@ $("#about").on('click', function(event){
 })
 // function to generate contact
 $("#message-btn").on('click', function(event){
-    var messageDiv = $("<div class='message-div'>");
+    var messageDiv = $("<div class='message-div greet1'>");
     messageDiv.attr('id', 'new-message');
     var h2 = $("<h3>Contact me</h3>")
     var p = $("<tag>Name</tag>");

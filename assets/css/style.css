@@ -7,7 +7,7 @@ body{
 
 .photo-background-div{
     /* margin-top: -80px; */
-    background-image: url("../images/cover2.jpg");
+    background-image: url("../images/cover2.png");
     /* background-size: cover; */
     background-size: cover;
     background-repeat: no-repeat;
@@ -15,7 +15,7 @@ body{
 .navbar{
     padding: 0px;
     margin: 0 auto;
-    border-bottom: solid rgb(168, 168, 168) 1px;
+    border-bottom: solid rgb(0, 0, 0) 1px;
 }
 .home-link{
     text-decoration: none;
@@ -25,6 +25,7 @@ body{
     text-decoration: none;
     color: rgb(59, 59, 59);
 }
+
 .title{
     text-decoration: none;
     width: fit-content;
@@ -68,16 +69,17 @@ body{
     opacity: 0.8;
     border: solid rgb(202, 202, 202) 1px;
 }
+
 .my-pic{
     margin-top: 15px;
-    /* border: rgb(255, 255, 255) solid 1px; */
+    border: rgb(43, 43, 43) solid 1px;
     /* padding: 6px; */
     /* border-radius: 50%; */
     width: 250px;
     
 }
 
-.greet{
+.greet1{
     margin-top: 80px;
     padding: 10px;
     background-color:rgb(13, 87, 136);
@@ -90,7 +92,7 @@ body{
 }
 .greet-title{
     text-align: center;
-    margin-top: 20px;
+    margin-top: 150px;
     color: #ffffff
 }
 
@@ -117,12 +119,12 @@ body{
     to {height: 60px;}
   } */
 .buttons-section{
-    background-color: rgb(236, 236, 236);
+    background-color: rgb(255, 255, 255);
     width: 100%;
     height: fit-content;
     padding-top:10px ;
     padding-bottom: 10px;
-    border-top: solid rgb(168, 168, 168) 1px;
+    border-top: solid rgb(13, 87, 136) 4px;
     border-bottom: solid rgb(168, 168, 168) 1px;
 }
 .about, .message, .projects, .something{
@@ -135,8 +137,8 @@ button{
     margin-top: 4px;
 }
 .about-me-btn, .message-btn, .projects-btn, .something-btn {
-    height: 60px;
-    font-size: 20px;
+    height: 40px;
+    font-size: 15px;
     background-color: rgb(13, 87, 136);
     color: white; 
     animation-name: buttons-animation;
@@ -146,16 +148,14 @@ button{
 
 /* first sub-section */
 .about{
-    height: 160px;
+    height: 150px;
     /* border-top-left-radius: 30px; */
     /* margin-bottom: -20px; */
-    background-color:#618685;
+    background-color:rgb(221, 221, 221);
     /* background-image: url("../images/WNP_00020.jpg");  */
     background-repeat: no-repeat;
     background-size: 100%; 
-}
-.about-me-btn{
-
+    border: solid rgb(83, 83, 83) 1px;
 }
 
 h3{
@@ -166,9 +166,10 @@ h3{
 .message{
     /* margin-top: 40px; */
     /* margin-top: -20px; */
-    height: 160px;
-    background-color:#618685;
+    height: 150px;
+    background-color:rgb(221, 221, 221);
     /* background-image: url("../images/email.jpg"); */
+    border: solid rgb(83, 83, 83) 1px;
     background-size: cover;
     background-repeat: no-repeat;
     /* text-align: center; */
@@ -184,9 +185,10 @@ input{
 }
 
 .projects{
-    height: 160px;
+    height: 150px;
     /* margin-right: -20px; */
-    background-color:#618685;
+    background-color:rgb(221, 221, 221);
+    border: solid rgb(83, 83, 83) 1px;
     /* border-top-right-radius: 30px; */
 }
 .projects-btn{
@@ -196,8 +198,9 @@ input{
 .something{
     /* margin-top: 20px; */
     /* margin-right: -20px; */
-    height: 160px;
-    background-color:#618685;
+    height: 150px;
+    background-color:rgb(221, 221, 221);
+    border: solid rgb(83, 83, 83) 1px;
     /* background-image: url("../images/projects.jpg"); */
     background-repeat: no-repeat;
     background-size: cover;
@@ -258,6 +261,11 @@ input{
 
 .social{
     padding: 4px;
+}
+
+.project-header{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(167, 61, 0);
 }
 
 /* new divs for info */
