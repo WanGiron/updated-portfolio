@@ -28,54 +28,63 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-light" style="background-color: #ffffff;">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #ffffff;">
         <!-- Navbar content -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <!-- <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a> -->
+                  <a id="about" class="nav-item nav-link" href="#">About</a>
+                  <a id="message-btn" class="nav-item nav-link" href="#">Message</a>
+                  <a class="nav-item nav-link" href="#">Skills</a>
+                </div>
+              </div>
         <h1 class="title"><a class="home-link" href="index.html">WILLIAM NAVAS</a></h1>
     </nav>
-    <H2 class="subtitle">Full-stack Web Developer</H2>
-    <div class="container container-top">
-        <div class="row main-div">
-
-            <div class="photo middle-section col-3">
-                <div id="middleDiv" class=""></div>
-                <div id="middleDivContent">
-                    <img src="assets/images/WNP_0002.jpg" alt="image" class=" my-pic">
-                    <div class="social-media">
-                        <h2 class="greet-p">Follow me!</h2>
-                        <a href="https://www.facebook.com/williamnavasphoto"><img src="assets/images/facebook.png"
-                                alt="image" width="50px" class="social"></a>
-                        <img src="assets/images/instagram.png" alt="image" width="50px" class="social">
-                        <img src="assets/images/twitter.png" alt="image" width="50px" class="social">
-                       <a href="https://github.com/WanGiron"><img src="assets/images/git-hub.png" alt="image" width="50px" class="social"></a>
+    <div class="photo-background-div">
+            <H2 class="subtitle">Full-stack Web Developer</H2>
+        <div class="container container-top">
+            <div class="row main-div">
+                <!-- <div class="photo middle-section col-3">
+                    <div id="middleDiv" class=""></div>
+                    <div id="middleDivContent">
+                        <img src="assets/images/WNP_0002.jpg" alt="image" class=" my-pic">
+                        <div class="social-media">
+                            <h2 class="greet-p">Follow me!</h2>
+                        </div>
                     </div>
+                </div> -->
+                <div id="content-area" class="greet col-12">
+                    <h1 class="greet-title">Welcome to my site</h1>
+                    <h5 class="text-for-greet-area">Here you can find information about me also some of my personal
+                        projects and much more!</h5>
                 </div>
-            </div>
-            <div id="content-area" class="greet col-9">
-                <h3 class="greet-title">Welcome to my site</h3>
-                <h5 class="text-for-greet-area">Here you can find information about me also some of my personal projects and much more!</h5>
-            </div>
 
+            </div>
         </div>
     </div>
     <div class="buttons-section">
         <div class="container">
+            <h2>My Recent Projects</h2>
             <div class="row ">
                 <div class="first-section col-3">
                     <div class="row first-subsection justify-content-md-center">
                         <div class="about col-11"></div>
-                        <button id="about" class="about-me-btn col-11">A little about me</button>
+                        <button class="about-me-btn col-11">Portfolio sample</button>
                     </div>
                 </div>
                 <div class="first-section col-3">
                     <div class="row first-subsection section-message justify-content-md-center">
                         <div class="message col-11"></div>
-                        <button id="message-btn" class="message-btn col-11">Send me a Message!</button>
+                        <button  class="message-btn col-11">Guess word game</button>
                     </div>
                 </div>
                 <div class="end-section col-3">
                     <div class="row end-subsection justify-content-md-center">
                         <div class="projects col-11 ml-auto"></div>
-                        <button id="projects" class="projects-btn col-11 ml-auto">My Projects</button>
+                        <button id="projects" class="projects-btn col-11 ml-auto">Collect gems</button>
                     </div>
                 </div>
                 <div class="end-section col-3">
@@ -91,7 +100,7 @@
                             </div>
 
                         </div>
-                        <button id="something" class="something-btn col-11 ml-auto">Skills/Technologies</button>
+                        <button id="something" class="something-btn col-11 ml-auto">Train scheduler</button>
                     </div>
                 </div>
             </div>
