@@ -190,14 +190,14 @@ input{
 }
 
   .text-div:hover{
-    opacity: 0.7;
+    opacity: 0.8;
   }
 .text-p{
     color: white;
     font-size: 20px;
-    position: absolute;
-    top: 40%;
-    left: 30%;
+    position: relative;
+    margin-top: 20px;
+    text-align: center;
 }  
 .text-div {
     position: absolute;
@@ -238,7 +238,6 @@ input{
 .social-media{
     margin-top: 10px;
     text-align: center;
-    padding-bottom: 40px;
 }
 
 .social{
