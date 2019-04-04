@@ -2,11 +2,11 @@ body{
     /* background-image: url("../images/cover2.jpg");
     background-size: cover;
     background-repeat: no-repeat; */
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .photo-background-div{
-    background-image: url("../images/cover2.png");
+    background-image: url("../images/cover2.jpg");
     /* background-size: cover; */
     background-size: cover;
     background-repeat: no-repeat;
@@ -27,8 +27,8 @@ body{
 .title{
     text-decoration: none;
     width: fit-content;
-    font-size: 40px;
-    margin-top: 6px;
+    font-size: 25px;
+    /* margin-top: 6px; */
     width: 100%;
     text-align: right;
     margin-right: 30px;
@@ -37,14 +37,14 @@ body{
 }
 
 .subtitle{
-    font-size: 26px;
+    font-size: 40px;
     /* margin: 0 auto; */
     color: rgb(228, 228, 228);
-    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-top: solid #618685 4px;
     border-bottom: solid rgb(168, 168, 168) 1px;
     width: 100%; 
-    text-align: right;
+    text-align: center;
     background-color: rgb(13, 87, 136); 
     padding: 4px;
     padding-right: 30px;
@@ -60,9 +60,9 @@ body{
 
 /* middle section */
 .my-pic{
-    margin-top: 10px;
+    margin-top: 80px;
     border: rgb(255, 255, 255) solid 1px;
-    /* padding: 6px;  */
+    /* padding: 6px; */
     /* border-radius: 50%; */
     width: 250px;
     
@@ -78,8 +78,9 @@ body{
 .greet{
     margin-top: 80px;
     padding: 10px;
-    /* background-color: black; */
-    opacity: 0.8;
+    background-color:rgb(13, 87, 136);
+    border: solid white 1px;
+    opacity: 0.5;
     height: fit-content;
     min-height: 250px;
     margin-bottom: 30px;
@@ -243,6 +244,7 @@ input{
 }
 .message-div{
     color: rgb(214, 214, 214);
+    /* background-color: rgb(53, 53, 53); */
 }
 
 /* social media div */
