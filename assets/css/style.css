@@ -127,6 +127,7 @@ body{
     border-top: solid rgb(13, 87, 136) 4px;
     border-bottom: solid rgb(168, 168, 168) 1px;
 }
+
 .about, .message, .projects, .something{
     animation-name: example;
     animation-duration: 1s;
@@ -136,7 +137,8 @@ button{
     border: rgb(0, 0, 0) solid 1px;
     margin-top: 4px;
 }
-.about-me-btn, .message-btn, .projects-btn, .something-btn {
+
+.something-btn {
     height: 40px;
     font-size: 15px;
     background-color: rgb(13, 87, 136);
@@ -173,10 +175,6 @@ h3{
     background-size: cover;
     background-repeat: no-repeat;
     /* text-align: center; */
-}
-
-.message-btn{
-    margin-bottom: 20px; 
 }
 
 input{
@@ -240,15 +238,15 @@ input{
     color: white;
     font-size: 20px;
     position: relative;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     text-align: center;
 }  
 
 .text-div {
-    position: absolute;
+    position: relative;
     height: 100%;
     width: 100%;
-    opacity: 0;
+    margin-top: -10px;
     transition: .5s ease;
     background-color: rgb(167, 61, 0);
     color: white;
@@ -318,6 +316,12 @@ input{
 
 /* technologies div */
 .tech-img{
-    margin-left: 70px;
-    
+    margin-left: 70px;  
 }
+
+@media screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .col-3{
+      width: 100%;
+    }
+  }
