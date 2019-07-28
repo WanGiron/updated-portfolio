@@ -38,7 +38,8 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
                 <!-- <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a> -->
-                <a id="about" class="nav-item nav-link" href="#">About</a>
+                <a id="about-1" class="nav-item nav-link" href="#" data-toggle="modal"
+                    data-target="#AboutModal">About</a>
                 <a id="message-btn" class="nav-item nav-link" href="#">Message</a>
                 <a class="nav-item nav-link" href="#">Skills</a>
             </div>
@@ -73,8 +74,8 @@
     <div class="buttons-section">
         <div class="container">
             <h2 class="project-header">My Recent Projects</h2>
-            <div class="row ">
-                <div class="col-3">
+            <div class="row justify-content-center">
+                <div class="col-md-3 col-sm-12 col-8">
                     <div class="photography-website">
                         <div class="text-div">
                             <p class="projects-ptag">TECHNOLOGIES:</p>
@@ -87,7 +88,7 @@
                         class="something-btn col-12">Photography Website</button>
                 </div>
 
-                <div class="col-3">
+                <div class="col-md-3 col-xs-12 col-8">
                     <div class="daycare-web-app">
                         <div class="text-div">
                             <p class="projects-ptag">TECHNOLOGIES:</p>
@@ -101,7 +102,7 @@
                         class="something-btn col-12">Daycare web app</button>
                 </div>
 
-                <div class="col-3">
+                <div class="col-md-3 col-sm-12 col-8">
                     <div class="memory-game">
                         <div class="text-div">
                             <p class="projects-ptag">TECHNOLOGIES:</p>
@@ -113,7 +114,7 @@
                         class="something-btn col-12">Memory game</button>
                 </div>
 
-                <div class="col-3">
+                <div class="col-md-3 col-sm-12 col-8">
                     <div class="gif-finder">
                         <div class="text-div">
                             <p class="projects-ptag">TECHNOLOGIES:</p>
@@ -127,8 +128,38 @@
             </div>
         </div>
     </div>
-    <!-- <div class="social-media">
-    </div> -->
+    <!-- Modal -->
+    <div class="modal fade" id="AboutModal" tabindex="-1" role="dialog" aria-labelledby="AboutModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="AboutModalLabel">About me</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Hi there! My name is William Navas, I'm a new web developer looking for opportunities to grow in
+                        the field. I'm filled with passion to develop great websites.
+                        My goal is to keep on learning new technologies that are introduced on a regular basis to
+                        strengthen my academic foundation in programming languages.
+                        With enthusiasm and effort, I have learned the principles of web development using different
+                        technologies currently available.
+                        I have worked in personal projects and contributed working with other developers, I also believe
+                        in teamwork which is the key to success.
+                        I'm also a self-driven person that has self-taught himself photography. I'm a freelancer
+                        web-developer and professional wedding photographer willing to take new challenges.
+                        You can reach me at williamanavas@gmail.com.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
 
 

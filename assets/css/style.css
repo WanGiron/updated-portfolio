@@ -11,6 +11,8 @@ body{
     /* background-size: cover; */
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
+
 }
 .navbar{
     padding: 0px;
@@ -204,6 +206,7 @@ input{
     background-image: url("../images/projects/gif-finder.png");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 .memory-game{
@@ -212,6 +215,7 @@ input{
     background-image: url("../images/projects/memory-game.png");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 .daycare-web-app{
@@ -220,6 +224,7 @@ input{
     background-image: url("../images/projects/daycare-web-app.png");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 .photography-website{
@@ -228,6 +233,7 @@ input{
     background-image: url("../images/projects/photography-website.png");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 .text-div:hover{
@@ -319,9 +325,46 @@ input{
     margin-left: 70px;  
 }
 
-@media screen and (max-width: 768px) {
-    /* For mobile phones: */
-    .col-3{
-      width: 100%;
+@media screen and (max-width: 1200px) {
+.my-pic{
+    width: 208px;
+}
+}
+@media screen and (max-width: 991px) {
+    .my-pic{
+        width: 150px;
     }
-  }
+
+}
+@media screen and (max-width: 767px) {
+    .my-pic{
+        width: 100px;
+    }
+
+}
+@media screen and (max-width: 420px) {
+    .my-pic{
+        width: 90px;
+    }
+
+    .middle-section{
+        padding: 5px;
+    }
+    .greet-title{
+        margin-top: 80px;
+    }
+
+    .title, .subtitle{
+        text-align: center;
+    }
+
+}
+@media screen and (max-width: 768px) {
+.col-md-3{
+    margin-top: 20px;
+}
+
+.photography-website, .memory-game, .daycare-web-app, .gif-finder{
+    height: 160px;
+}
+}
