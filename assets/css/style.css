@@ -94,13 +94,17 @@ body{
 }
 .greet-title{
     text-align: center;
-    margin-top: 150px;
-    color: #ffffff
+    margin-top: 20px;
+    color: #ffffff;
 }
 
 .text-for-greet-area{
-    text-align: center;
+    text-align: justify;
+    text-justify: inter-word;
     color: white;
+    font-size: 18px;
+    background-color: #25252560;
+    padding: 4px;
 }
 
 .greet-p{
