@@ -94,7 +94,7 @@ body{
 }
 .greet-title{
     text-align: center;
-    margin-top: 20px;
+    margin-top: 70px;
     color: #ffffff;
 }
 
@@ -103,8 +103,9 @@ body{
     text-justify: inter-word;
     color: white;
     font-size: 18px;
+    font-weight: 200;
     background-color: #25252560;
-    padding: 4px;
+    padding: 10px;
 }
 
 .greet-p{
@@ -348,14 +349,17 @@ input{
 }
 @media screen and (max-width: 420px) {
     .my-pic{
-        width: 90px;
+        width: 250px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .middle-section{
         padding: 5px;
     }
     .greet-title{
-        margin-top: 80px;
+        margin-top: 20px;
     }
 
     .title, .subtitle{
