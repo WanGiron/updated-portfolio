@@ -94,7 +94,7 @@ body{
 }
 .greet-title{
     text-align: center;
-    margin-top: 70px;
+    margin-top: 24px;
     color: #ffffff;
 }
 
@@ -202,7 +202,6 @@ input{
 
 .projects-ptag{
     margin-top: 10px;
-
 }
 
 .gif-finder{
@@ -340,10 +339,17 @@ input{
         width: 150px;
     }
 
+    .projects-ptag{
+        font-size: 14px;
+    }
+
 }
 @media screen and (max-width: 767px) {
     .my-pic{
-        width: 100px;
+        width: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 
 }
