@@ -68,7 +68,7 @@ body{
     margin-top: 80px;
     background-color: rgb(13, 87, 136);
     padding-bottom: 15px;
-    opacity: 0.8;
+    /* opacity: 0.8; */
     border: solid rgb(202, 202, 202) 1px;
 }
 
@@ -158,7 +158,8 @@ body{
 
 button{
     border: rgb(0, 0, 0) solid 1px;
-    margin-top: 4px;
+    /* margin-top: 4px; */
+    border-top: none;
 }
 
 .something-btn {
